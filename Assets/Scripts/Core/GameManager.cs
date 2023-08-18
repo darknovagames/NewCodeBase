@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace DNBase.Core{
-
+    //General game manager script that controls game flow.
     public class GameManager : Singleton<GameManager>
     {
         private GameState _currentState;
